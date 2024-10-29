@@ -1,0 +1,125 @@
+body {
+    display: grid;
+    grid-template-columns: repeat(6, 240px);
+    margin: 0;
+}
+
+.text-1 {
+    background-color: rgb(81, 175, 234);
+    display: grid;
+    grid-column: 1/4;
+    text-align: center;
+    margin: 0px;
+}
+
+.text-2 {
+    background-color: rgb(238, 179, 117);
+    display: grid;
+    grid-column: 4/7;
+    text-align: center;
+    margin: 0px;
+}
+
+
+h1 {
+    background-color: antiquewhite;
+    margin: 0;
+    text-align: center;
+    grid-column: 1 / 7;
+}
+
+h3 {
+    grid-column: 1 / 7;
+    background-color: antiquewhite;
+    text-align: center;
+    margin: 0;
+}
+
+.pictures {
+    display: grid;
+    grid-template-columns: repeat(6, 240px);
+    grid-template-rows: repeat(3, 210px);
+    gap: 5px;
+}
+
+.пик-1 {
+    grid-row: 1 / 4;
+    grid-column: 1 / 2;
+    width: 215px;
+    height: 630px;
+}
+
+.пик-2 {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+}
+
+.пик-3 {
+    grid-column: 3 / 4;
+    grid-row: 1 / 2;
+}
+
+.пик-4 {
+    grid-column: 4 / 6;
+    grid-row: 1 / 2;
+    width: 460px;
+    height: 205px;
+}
+
+.пик-5 {
+    grid-row: 1 / 2;
+    grid-column: 5 / 6;
+}
+
+.пик-6 {
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+}
+
+.пик-7 {
+    grid-column: 3 / 4;
+    grid-row: 2 / 3;
+}
+
+.пик-8 {
+    grid-column: 4 / 5;
+    grid-row: 2 / 3;
+}
+
+.пик-9 {
+    grid-column: 6 / 7;
+    grid-row: 2 / 4;
+    width: 215px;
+    height: 420px;
+}
+
+.пик-10 {
+    grid-column: 2 / 3;
+    grid-row: 3 / 4;
+}
+
+.пик-11 {
+    grid-column: 3 / 4;
+    grid-row: 3 / 4;
+}
+
+.пик-12 {
+    grid-column: 4 / 5;
+    grid-row: 3 / 4;
+}
+
+.пик-13 {
+    grid-column: 5 / 6;
+    grid-row: 2 / 3;
+}
+
+.пик-14 {
+    grid-column: 5 / 6;
+    grid-row: 3 / 4;
+}
+
+img {
+    margin: 0;
+    width: 215px;
+    height: 200px;
+}
